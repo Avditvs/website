@@ -1,0 +1,39 @@
+baseURL: 'https://www.louis-germain.fr'
+languageCode: 'en-us'
+# title: "Louis Germain"
+theme: "PaperMod"
+
+params:
+  contact:
+    email: "germain.louis.80@gmail.com"
+    phone: "+33625438516"
+
+  profileMode:
+    enabled: true
+    title: "Louis Germain" # optional default will be site title
+    subtitle: "Passionate Machine Learning Engineer, I love solving complex problems, create new things and make them available to the public. I also enjoy sharing my knowledge and experience with others."
+    imageUrl: "profile_picture.jpg"
+    imageTitle: "profile_picture" # optional
+    imageWidth: 240 # custom size
+    imageHeight: 240 # custom size
+
+    buttons:
+      - name: Talks / Conferences
+        url: "/events"
+      # - name: Blog
+      #   url: "/blog"
+      - name: "Experiences"
+        url: "/experiences"
+      # - name: Skills
+      #   url: "/skills"
+    
+  ShowReadingTime: true
+  ShowBreadCrumbs: true
+
+  socialIcons:
+    - name: "linkedin"
+      url: "https://www.linkedin.com/in/louis-germain-insa/"
+    - name: "github"
+      url: "https://github.com/Avditvs"
+    - name: "email"
+      url: "mailto:germain.louis.80@gmail.com"
